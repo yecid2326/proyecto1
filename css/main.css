@@ -3,3 +3,17 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    width: 7rem;
+    display: flex;
+}
+img#logo-web-equipos{
+    width: 8rem;
+}
+
+ul.menu-principal {
+    list-style: none;
+    display: flex;
+    align-items: flex-end;
+    gap: 4rem;
+}
