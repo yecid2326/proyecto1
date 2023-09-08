@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        Encabezado
+    </header>
+    <main>
+        <nav class="menu-contact">
+            <ul class="menu-contact">
+                <li class="menu-list-item-contact">
+                    <a href="#contacto">contacto@tycj.com</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="formcontacto_container" id="contacto">
+            <div class="formcontacto--left">
+                <img class="formcontacto_img" src="./imagenes/images.jfif">
+            </div>
+            <section class="formcontacto_text">
+                <h2 class="section_title formcontacto_title">Contacto</h2>
+                <h3 class="formcontacto_subtext">¿Quieres contactarme?</h3>
+                <h3 class="formcontacto_subtext">
+                    "Completa el siguiente formulario y me comunicare lo mas pronto posible"
+                </h3>
+                <form action="formcontacto_form" name="form">
+                    <div class="form-file form-fiel-input">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Escribe tù nombre" data-type="input-name" autocomplete="off" required>
+                        <label for="name" class="form-label" data-type="label-name">Nombre:</label>
+                        <span class="form-message">Mensaje informativo o de error</span>
+                    </div>
+                </form>
+                <form action="formcontacto_form" name="form">
+                    <div class="form-file form-fiel-input">
+                        <input type="email" name="email" class="form-control invalid" id="email" placeholder="Escribe un e-mail" data-type="input-email" autocomplete="off" required>
+                        <label for="name" class="form-label" data-type="label-name">E-mail:</label>
+                        <span class="form-message">Mensaje informativo o de error</span>
+                    </div>
+                </form>
+                <form action="formcontacto_form" name="form">
+                    <div class="form-file form-fiel-input">
+                        <input type="text" name="asunto" class="form-control" id="asunto" placeholder="Escribe un asunto" data-type="input-name" autocomplete="off" required>
+                        <label for="name" class="form-label" data-type="label-name">Asunto:</label>
+                        <span class="form-message">Mensaje informativo o de error</span>
+                    </div>
+                </form>
+                <form action="formcontacto_form" name="form">
+                    <div class="form-file form-fiel-input">
+                        <textarea name="mensaje" class="form-control invalid" id="mensaje" placeholder="Escribe un mensaje" data-type="textarea-mensaje" required></textarea>
+                        <label for="mensaje" class="form-label invalid" data-type="label-mensaje">Escribe el mensaje</label>
+                        <span class="form-message">Mensaje informativo o de error</span>
+                    </div>
+                    <buttom type="submit" class="formcontacto" disabled>Enviar mensaje</buttom>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        Pie de página
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+</html>
