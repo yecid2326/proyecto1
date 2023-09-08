@@ -8,7 +8,7 @@ header{
     display: flex;
 }
 img#logo-web-equipos{
-    width: 8rem;
+    width: 10rem;
 }
 
 ul.menu-principal {
@@ -16,4 +16,8 @@ ul.menu-principal {
     display: flex;
     align-items: flex-end;
     gap: 4rem;
+}
+h1 {
+    display: flex;
+    justify-content: center;
 }
