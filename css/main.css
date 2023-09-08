@@ -3,3 +3,36 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+.main-table {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+img.dimensiones {
+    width: 35rem;
+    padding:1rem
+}
+
+tr.filas-tabla {
+    height: 22rem;
+}
+p.titulo-imagen {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    color: white;
+}
+p.numeral {
+    font-size: 1rem;
+    font-family: cursive;
+}
+th.title-table {
+    font-family: cursive;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 6rem;
+}
+.fondo {
+    background-image: url(/images/cover2.gif);
+}
